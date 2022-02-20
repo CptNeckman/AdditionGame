@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.GameFinishedFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_result"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/gameOver"
+            android:src="@drawable/image_good_result"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/tv_required_answers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"
+            android:text="Необходимое количество правильных ответов: %s"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/tv_score_answers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="left"
+            android:text="Ваш счёт: %s"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/tv_required_percentage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="left"
+            android:text="Необходимый процент правильынх ответов: %s"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/tv_score_percentage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="left"
+            android:text="Процент правильных ответов: %s"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/button_retry"
+            android:background="@drawable/background_button_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Попробовать снова"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</FrameLayout>

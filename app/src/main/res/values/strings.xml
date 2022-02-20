@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">AdditionGame</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="testLevel">TEST</string>
+    <string name="easyLevel">Easy</string>
+    <string name="normalLevel">Normal</string>
+    <string name="hardLevel">Hard</string>
+    <string name="chooseLevel">Выберите уровень сложности:</string>
+    <string name="time">00:00</string>
+    <string name="progress_answer">Правильных ответов %s (минимум %s)</string>
+    <string name="gameOver">Game Over</string>
+
+    <string name="gameRulesTitle">Правила Игры:</string>
+    <string name="gameRules">
+         Перед вами будет три фигуры,две снизу и одна сверху,в двух из них будут числа.Необходимо, чтобы сумма чисел из двух нижних фигур была равна числу в верхней фигуре, для этого нужно вставить недостающее число.
+    </string>
+
+    <string name="exampleTitle">Пример:</string>
+    <string name="example">
+        В верхнем круге число 7, в одном  из нижних знак вопроса, а в другом число 4.Значит на месте вопросительного знака должно быть число 3, потому что 3 + 4 = 7.
+    </string>
 </resources>
