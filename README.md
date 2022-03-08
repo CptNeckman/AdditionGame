@@ -1,4 +1,4 @@
-<h2>Addition Game<h2>
+<h2>Addition Game*<h2>
   
   <h4>The project is created with:</h4>
   <h6>-Clean Architecture</h6>
@@ -9,4 +9,4 @@
   
   <img src="https://github.com/CptNeckman/AdditionGame/blob/master/photo5276136713913219818.jpg" width="200" height="350">
   
-  <h8>In the process of being finalized</h8>
+  <h8>*In the process of being finalized</h8>
